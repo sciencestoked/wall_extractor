@@ -1,0 +1,51 @@
+{
+  "image_path": "test_shapes.png",
+  "image_size": [
+    800,
+    600
+  ],
+  "points": [
+    {
+      "position": [
+        500,
+        320
+      ],
+      "shape_type": "rectangle",
+      "area": 4000.0,
+      "click_position": [
+        505,
+        339
+      ],
+      "snap_distance": 19.6468827043885,
+      "timestamp": 0
+    },
+    {
+      "position": [
+        285,
+        350
+      ],
+      "shape_type": "square",
+      "area": 4728.0,
+      "click_position": [
+        309,
+        330
+      ],
+      "snap_distance": 31.240998703626616,
+      "timestamp": 1
+    },
+    {
+      "position": [
+        299,
+        199
+      ],
+      "shape_type": "circle",
+      "area": 3216.990877275948,
+      "click_position": [
+        311,
+        177
+      ],
+      "snap_distance": 25.059928172283335,
+      "timestamp": 2
+    }
+  ]
+}
