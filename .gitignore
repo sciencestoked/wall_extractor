@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
+01_raw_images/*.png
+01_raw_images/*.jpg
+01_raw_images/*.jpeg
+01_raw_images/*.tiff
+01_raw_images/*.bmp
+02_aligned_images/*.png
+02_aligned_images/*.jpg
+02_aligned_images/*.jpeg
+02_aligned_images/*.tiff
+02_aligned_images/*.bmp
+03_pre_masks/*.png
+03_pre_masks/*.jpg
+03_pre_masks/*.jpeg
+03_pre_masks/*.tiff
+03_pre_masks/*.bmp
+04_final_masks/*.png
+04_final_masks/*.jpg
+04_final_masks/*.jpeg
+04_final_masks/*.tiff
+04_final_masks/*.bmp
+
+# Keep directory structure but ignore images
+!01_raw_images/.gitkeep
+!02_aligned_images/.gitkeep
+!03_pre_masks/.gitkeep
+!04_final_masks/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
