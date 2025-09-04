@@ -1,0 +1,18 @@
+{
+  "binarization": {
+    "block_size": 21,
+    "c_value": 10
+  },
+  "line_detection": {
+    "min_line_length": 20
+  },
+  "wall_finding": {
+    "min_wall_thickness": 5,
+    "max_wall_thickness": 40,
+    "parallel_angle_tolerance": 5.0,
+    "min_solidity_percentage": 40.0
+  },
+  "debugging": {
+    "show_steps": true
+  }
+}
